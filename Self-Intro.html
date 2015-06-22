@@ -1,0 +1,110 @@
+<!--Info about this webpage
+  Name:Robert Cheng
+  Date: 2015-04-17
+  Project Name: Self Introduction Webpage
+  Purpose:
+  1. Adding image elements
+  2. Adding a fixed navigation bar to guide through the page
+  3. Richer CSS
+  4. Adding documentation
+  5. Make the webpage responsive to different window sizes
+  -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <title>Week 3 Assignment --- Robert Cheng</title>
+  <link rel="stylesheet" href="Self-Intro.css">
+</head>
+
+<body>
+  <div style=" position: absolute;left:0px;width: 800px;">
+    <ul class="ul"  style="position:fixed">
+      <li class = "li"><a href=#main_title class="links">Home</a></li>
+      <li class="li"><a href=#general class="links">Basic Info</a></li>
+      <li class="li"><a href=#experience class="links">Experience</a></li>
+      <li class="li"><a href=#interest class="links">Interests</a></li>
+      <li class="li"><a href=#websites class="links">Favourite Sites</a></li>
+      <li class="li"><a href=#html class="links">Thoughts on HTML and CSS</a></li>
+    </ul>
+  </div>
+  
+  <div id="main_title">
+    <br>
+    <br>
+    <h1 style="font-family:cursive">Let Me Introduce Myself </h1>
+    <h2 style="font-family:cursive">Chang (Robert) Cheng</h2>
+    	<a href="https://www.facebook.com/profile.php?id=100001625730078">
+    <img src="ProfilePic.jpg" alt="Robert Cheng" style="width:318px;height:318px"></a>
+    <p style:"font-size:80%">click on the pic to visit my facebook page</p>
+  </div>
+  
+  <div id="general">
+    <h2 style="font-family:cursive">Basic Information</h2>
+    <pre style="text-align:left;font-size:120%">
+      <br>
+      <b>Name:</b> Roebrt Cheng<br>
+      <b>Major:</b> Master of Science in Information System<br>
+      <b>Start Time:</b> Spring Term 2015<br>
+      <b>Contact:</b> <a href="mailto:chengchang8@gmail.com">chengchang8@gmail.com</a><br>
+      <img src="">
+    </pre>
+  </div>
+  
+  <div id="experience">
+    <h2 style="font-family:cursive">Some Personal Experience</h2>
+    <pre style="line-height: 25px; text-align:left; font-size:120%">
+<br>Although my was major in <strong style="color:brown">Traffic Engineering</strong> during my undergrade, I still can't resisted the temptation of doing what I love since middle school. I eagerly hoped to start a career in Information Technology, especially in Internet realted field. So I started a website with some friends of mine and <strong style="color:blue">tought myself some coding, website managing and promoting skills</strong>. After graduated, I worked as a <strong style="color:red">product manager</strong> at one of the fastest growing mobile social app company in China, which was a dream come true. My job included <strong style="color:purple">conducting market research, finding out features that are most desired and problems that are most urged to be solved. I also design my own solutions for function requirements and product prototypes, then worked with engineers to make my solutions come to live</strong>. However, during my work, I found myself in a lack of professional education in this field, which is why I choose to apply for MSIS program at Drexel University to catch up with my shortage and boost my career in 
+technology field.
+    </pre>
+  </div>
+  
+  <div id="interest">
+    <h2 style="font-family:cursive">What I Do During My Sparetime ...</h2>
+    <ul style="list-style-type:disc;text-align:left;font-size:120%">
+      <br>
+      <li>Swimming</li><br>
+      <li>Badminton</li><br>
+      <li>Playing with digital gadgets and new apps</li><br>
+      <li>Movies (Star Wars and The Lord of The Ring series are my favourite)</li><br>
+      <li>TV Series (can't wait to take a look at the new season of Game of Thrones LOL)</li><br>
+      <li>Music</li><br>
+    </ul>
+   </div>
+  
+  <div id="websites">
+    <h2 style="font-family:cursive">Top 5 Websites for Me</h2>
+    <ol style="text-align:left;font-size:120%">
+      <br>
+      <li><a href="http://www.google.com" target="_blank">Google:</a> where I look for answers to my questions</li><br>
+      <li><a href="http://www.spotify.com" target="_blank">Spotify:</a> enjoy hot tracks for free :)</li><br>
+      <li><a href="http://www.imdb.com" target="_blank">IMDB:</a> check out how the new movies are rated</li><br>
+      <li><a href="http://www.udacity.com" target="_blank">Udacity:</a> great spot to learn coding, interactive tests and projects included</li><br>
+      <li><a href="http://cssdeck.com" target="_blank">CSSdeck:</a> wonderful online code editor with realtime web page display</li><br>
+    </ol>
+  </div>
+  
+  <div id="html">
+    <h2 style="font-family:cursive; text-align:center">What is HTML ?</h2>
+    <pre style="text-align:left;line-height:25px;font-size:120%">
+<br>HTML is a mark up language which is used specifically for designing webpages, these are some thoughts of mine on HTML and CSS till now. <ins>Different opinions are welcomed</ins> :)
+    </pre>
+    <dl style="text-align:left; text-indent:60px; line-height:25px;font-size:110%">
+      <dt>It's somehow like a natural language</dt>
+        <dd>- code lines are highly readable, even to someone with zero knowledge in HTML</dd>
+        <dd>- attributes, styles and elements are named based on relevant English words, it's easy to remember and use</dd><br>
+        
+      <dt>It's a tag based language</dt>
+        <dd>- tags shows where the position of the elements are, also the types of the elements.</dd>
+        <dd>- the critical part is to set up the "tag structure" of the webpage, after that, writing content is just like filling the blanks </dd><br>
+      
+      <dt>CSS feels like a block designing tool</dt>
+        <dd>- the webpages are basically a LEGO, constructed block by block, CSS set up a design rules for each block and assign to the blocks by using id and classes  </dd>
+        <dd>- HTML generate the content, CSS is in respond for the layout</dd>
+    </dl>
+  </div>
+
+  </body>
+</html>
