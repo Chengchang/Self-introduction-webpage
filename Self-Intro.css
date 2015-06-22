@@ -1,0 +1,86 @@
+/*Info about this webpage
+  Name:Robert Cheng
+  Date: 2015-04-17
+  Project Name: Self Introduction Webpage
+  Purpose:
+  1. Adding image elements
+  2. Adding a fixed navigation bar to guide through the page
+  3. Richer CSS
+  4. Adding documentation
+  5. Make the webpage responsive to different window sizes
+  */
+#main_title{
+  background-color:orange;
+  color:white;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+#general{
+  background-color:lightblue;
+  color:black;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+#experience{
+  background-color:lightgreen;
+  color:black;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+#interest{
+  background-color:darkred;
+  color:white;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+#websites{
+  background-color:black;
+  color:white;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+#html{
+  background-color:lightgrey;
+  color:black;
+  padding:8px;
+  text-align:center;
+  width:100%
+}
+
+.ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li {
+    float: left;
+}
+
+.links:link, links:visited {
+    display: block;
+    alignment-adjust: center;
+    font-weight: bold;
+    color: white;
+    background-color:black;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    size:20px;
+}
+
+.links:hover, links:active {
+    background-color: red;
+}
